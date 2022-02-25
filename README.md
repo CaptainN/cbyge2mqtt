@@ -1,11 +1,11 @@
-cbyge2mqtt2hass
-===============
+cbyge2mqtt
+==========
 
-This is a quick little proof of concept to link the cbyge experiment to mqtt to interface with home assistant. It's essentially a bridge to allow control over GE Cync (formerly C by GE) lights by integrating with the GE (xlink) servers.
+This is a quick little proof of concept to link the [cbyge experiment](https://github.com/unixpickle/cbyge) to mqtt to interface with [home assistant](https://www.home-assistant.io/). It's essentially a bridge to allow control over GE Cync (formerly C by GE) lights by integrating with the GE (xlink) servers.
 
 It works! But it's kind of silly. It requires a few things.
 
-1. Set up home assistant with the MQTT addon.
+1. Set up home assistant with the [MQTT addon](https://www.home-assistant.io/integrations/mqtt/).
 2. Set up and run cbyge somewhere on your network (or the same machine). Log in to your GE account.
 3. Set the env vars, install package, and run the server!
 

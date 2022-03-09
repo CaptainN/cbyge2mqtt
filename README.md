@@ -1,6 +1,10 @@
 cbyge2mqtt
 ==========
 
+UPDATE: I went ahead and ported this to cbyge directly, and the result is a much more stable (if still very slow) server. I also haven't tested it long enough to know if it's stable, and I already know of a few different bugs. It's pre-alpha quality software, based on a reverse engineering effort that has no guarantee to keep working. But it's better than this one!
+
+----------
+
 This is a quick little proof of concept to link the [cbyge experiment](https://github.com/unixpickle/cbyge) to mqtt to interface with [home assistant](https://www.home-assistant.io/). It's essentially a bridge to allow control over GE Cync (formerly C by GE) lights by integrating with the GE (xlink) servers.
 
 It works! But it's kind of silly. It requires a few things.

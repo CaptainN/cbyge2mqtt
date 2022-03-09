@@ -1,7 +1,7 @@
 cbyge2mqtt
 ==========
 
-UPDATE: I went ahead and ported this to cbyge directly, and the result is a much more stable (if still very slow) server. I also haven't tested it long enough to know if it's stable, and I already know of a few different bugs. It's pre-alpha quality software, based on a reverse engineering effort that has no guarantee to keep working. But it's better than this one!
+UPDATE: I went ahead and [ported this to cbyge directly](https://github.com/CaptainN/cbyge), and the result is a much more stable (if still very slow) server. I also haven't tested it long enough to know if it's stable, and I already know of a few different bugs. It's pre-alpha quality software, based on a reverse engineering effort that has no guarantee to keep working. But it's better than this one!
 
 ----------
 
